@@ -35,7 +35,7 @@ const About = () => {
 
         {/* Optional Stats Section (Premium Look) */}
         <div className="flex gap-8 mt-10">
-          <div>
+          <div className="text-center">
             <p className="text-2xl font-bold text-gray-900 dark:text-white">
               4
             </p>
@@ -44,9 +44,9 @@ const About = () => {
             </p>
           </div>
 
-          <div>
+          <div className="text-center">
             <p className="text-2xl font-bold text-gray-900 dark:text-white">
-              7+
+              6+
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400">
               Projects Delivered
