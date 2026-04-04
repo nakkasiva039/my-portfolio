@@ -6,7 +6,7 @@ const About = () => {
     <section
       id="about"
       aria-labelledby="about-heading"
-      className="py-24 scroll-mt-24 bg-white dark:bg-gray-900"
+      className="py-8 scroll-mt-24 bg-white dark:bg-gray-900"
     >
       <Container>
         <SectionTitle title="About Me" subtitle="Get to know more about me" />

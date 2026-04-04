@@ -26,7 +26,7 @@ const skills = [
 const Skills = () => {
   const { ref, isVisible } = useInView();
   return (
-  <section id="skills" ref={ref} className="py-24 scroll-mt-24">
+  <section id="skills" ref={ref} className="py-12 scroll-mt-24">
       <Container>
         <SectionTitle title="Skills" subtitle="Technologies I work with" />
         <div

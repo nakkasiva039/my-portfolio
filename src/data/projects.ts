@@ -1,8 +1,8 @@
 export const projects = [
   {
     title: "WeRize Field Force Application",
-    description:
-      "WeRize Field Force Application used by agents to manage loan cases, track customer interactions, and handle overdue collections efficiently.",
+   description:
+  "Internal production application developed as part of my role, used by field agents to manage loan cases, customer interactions, and collections workflow.",
     details: [
       "Built using React, TypeScript, Redux, and Tailwind CSS with focus on performance and usability.",
       "Enabled agents to manage assigned cases, track overdue payments, and update call/visit dispositions.",
@@ -18,8 +18,8 @@ export const projects = [
       ],
     },
     tech: ["React", "Redux", "TypeScript", "Tailwind"],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
 
   {
@@ -46,8 +46,8 @@ export const projects = [
     },
 
     tech: ["React", "TypeScript", "Context API", "Tailwind"],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
 
   {
@@ -75,8 +75,8 @@ export const projects = [
     },
 
     tech: ["React", "JavaScript", "API Integration", "Bootstrap"],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
 
   {
@@ -104,8 +104,8 @@ export const projects = [
     },
 
     tech: ["React", "JavaScript", "API Integration", "Form Handling"],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
 
   {
@@ -139,7 +139,7 @@ export const projects = [
       "API Integration",
       "Bootstrap",
     ],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
 ];

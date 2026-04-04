@@ -20,11 +20,16 @@ const ProjectCard = (props: Project) => {
                cursor-pointer
       "
       >
-        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-        {props.title}
-      </h3>
+        <h3 className="text-xl font-semibold mb-1 text-gray-900 dark:text-white">
+          {props.title}
+        </h3>
+        <span className="inline-block mt-1 mb-2 text-xs px-2 py-1 rounded bg-green-100 text-green-700 font-medium">
+          Work Project
+        </span>
 
-         <p className="text-gray-600 dark:text-gray-300 mb-4">{props.description}</p>
+        <p className="text-gray-600 dark:text-gray-300 mb-4">
+          {props.description}
+        </p>
 
         <div className="flex flex-wrap gap-2 mb-3">
           {props.tech.map((item) => (
