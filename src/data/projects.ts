@@ -81,16 +81,64 @@ export const projects = [
 
   {
     title: "Partner Application",
-    description: "System for managing partner operations and reporting.",
-    tech: ["React", "Redux", "JavaScript"],
+    description:
+      "Application used by partners to onboard themselves and create customer loan applications across multiple products with structured workflows.",
+
+    details: [
+      "Developed partner onboarding journey including personal details, KYC verification, selfie capture, and bank details.",
+      "Enabled partner creation flow after successful onboarding with validation and API integration.",
+      "Built multi-product loan application flows including Personal Loan, Unsecured Business Loan, and LAP.",
+      "Implemented dynamic form handling based on selected product with different workflows and validations.",
+      "Integrated document upload functionality for both partner and customer applications.",
+    ],
+
+    module: {
+      title: "Partner Onboarding & Loan Application Flow",
+      points: [
+        "Designed onboarding flow with step-by-step data capture and KYC verification.",
+        "Handled partner lifecycle from onboarding to customer acquisition.",
+        "Implemented product-based dynamic forms with conditional rendering.",
+        "Enabled document upload and verification for loan processing.",
+        "Ensured smooth user experience across different loan journeys.",
+      ],
+    },
+
+    tech: ["React", "JavaScript", "API Integration", "Form Handling"],
     github: "#",
     demo: "#",
   },
 
   {
     title: "CAM Dashboard",
-    description: "Analytics dashboard for monitoring system data and reports.",
-    tech: ["React", "JavaScript", "Bootstrap"],
+    description:
+      "Credit analysis dashboard used to evaluate customer financial data including income, liabilities, banking transactions, and bureau reports for loan decision-making.",
+
+    details: [
+      "Developed a comprehensive dashboard to analyze customer financial and credit data in a structured manner.",
+      "Implemented multiple modules including Checklist, Summary, Liability, Employment, Banking, PD Sheet, Bureau, and Customer Dashboard.",
+      "Built banking analysis features to track transactions, perform financial analysis, and monitor FCU (Fraud Control Unit) status.",
+      "Integrated bureau data including CIBIL and CRIF reports for credit score evaluation.",
+      "Designed reusable UI components to display complex financial data in a clear and user-friendly format.",
+    ],
+
+    module: {
+      title: "Credit Analysis & Financial Dashboard",
+      points: [
+        "Designed tab-based layout to organize financial and credit data efficiently.",
+        "Handled large datasets including banking transactions, liabilities, and employment details.",
+        "Integrated credit bureau APIs to fetch and display CIBIL and CRIF reports.",
+        "Implemented analysis views for banking transactions and fraud status tracking.",
+        "Ensured smooth navigation and performance optimization for data-heavy UI.",
+      ],
+    },
+
+    tech: [
+      "React",
+      "JavaScript",
+      "Data Visualization",
+      "API Integration",
+      "Bootstrap",
+    ],
     github: "#",
     demo: "#",
   },
