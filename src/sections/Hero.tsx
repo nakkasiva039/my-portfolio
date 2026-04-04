@@ -82,7 +82,7 @@ const Hero = () => {
             {/* Social Icons */}
             <div className="flex gap-4 mt-6 text-xl">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/nakkasiva039"
                 target="_blank"
                 className="hover:text-blue-500"
                 aria-label="GitHub Profile"

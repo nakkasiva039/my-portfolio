@@ -81,7 +81,7 @@ const Contact = () => {
 
               {/* GitHub */}
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/nakkasiva039"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 border border-gray-200 dark:border-gray-700 p-4 rounded-lg hover:shadow-md hover:-translate-y-1 transition"
