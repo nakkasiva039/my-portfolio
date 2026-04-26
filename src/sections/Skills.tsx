@@ -26,11 +26,16 @@ const skills = [
 const Skills = () => {
   const { ref, isVisible } = useInView();
   return (
-  <section id="skills" ref={ref} className="py-12 scroll-mt-24">
+    <section
+      id="skills"
+      ref={ref}
+      className="py-12 sm:py-12 md:py-14 scroll-mt-24"
+    >
       <Container>
         <SectionTitle title="Skills" subtitle="Technologies I work with" />
+
         <div
-          className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ${
+          className={`mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 ${
             isVisible ? "animate-zoom-in" : "opacity-0"
           }`}
         >
@@ -38,10 +43,11 @@ const Skills = () => {
             <div
               key={skill}
               className="border border-gray-200 dark:border-gray-700 
-                 bg-white dark:bg-gray-800 
-                 rounded-lg p-6 text-center shadow-sm 
-                 hover:shadow-md hover:scale-105 
-                 transition duration-300"
+              bg-white dark:bg-gray-800 
+              rounded-lg p-4 sm:p-5 md:p-6 
+              text-center text-sm sm:text-base
+              shadow-sm hover:shadow-md hover:scale-105 
+              transition duration-300"
             >
               {skill}
             </div>
