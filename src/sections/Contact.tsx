@@ -33,7 +33,7 @@ const Contact = () => {
     setLoading(false);
   };
   return (
-    <section id="contact" className="py-12 scroll-mt-24">
+    <section id="contact" className="py-8 scroll-mt-24">
       <Container>
         <SectionTitle
           title="Contact"
